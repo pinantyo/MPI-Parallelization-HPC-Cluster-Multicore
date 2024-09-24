@@ -1,0 +1,4 @@
+
+
+store-01 : Sep 20 11:38:52 : user04 : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/user04 ; USER=root ; COMMAND=/bin/nano matmul.c
+

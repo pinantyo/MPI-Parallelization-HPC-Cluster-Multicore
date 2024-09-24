@@ -1,0 +1,27 @@
+[node-02:03512] Read -1, expected 32768, errno = 14
+[node-02:03512] *** Process received signal ***
+[node-02:03512] Signal: Segmentation fault (11)
+[node-02:03512] Signal code: Address not mapped (1)
+[node-02:03512] Failing at address: 0x565223929000
+[node-02:03512] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fdcd0fdcf10]
+[node-02:03512] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0xbb361)[0x7fdcd1059361]
+[node-02:03512] [ 2] /usr/local/lib/libopen-pal.so.40(opal_convertor_unpack+0xa8)[0x7fdcd0a716e8]
+[node-02:03512] [ 3] /usr/local/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_recv_request_progress_frag+0x131)[0x7fdcbfbe7391]
+[node-02:03512] [ 4] /usr/local/lib/openmpi/mca_btl_vader.so(mca_btl_vader_poll_handle_frag+0x8f)[0x7fdcc4d9ca6f]
+[node-02:03512] [ 5] /usr/local/lib/openmpi/mca_btl_vader.so(+0x4d60)[0x7fdcc4d9cd60]
+[node-02:03512] [ 6] /usr/local/lib/libopen-pal.so.40(opal_progress+0x2c)[0x7fdcd0a5fe0c]
+[node-02:03512] [ 7] /usr/local/lib/libmpi.so.40(ompi_request_default_wait+0x4d)[0x7fdcd13dc13d]
+[node-02:03512] [ 8] /usr/local/lib/libmpi.so.40(ompi_coll_base_gather_intra_linear_sync+0x2ef)[0x7fdcd143e47f]
+[node-02:03512] [ 9] /usr/local/lib/openmpi/mca_coll_tuned.so(ompi_coll_tuned_gather_intra_dec_fixed+0x7f)[0x7fdcbf9c2d5f]
+[node-02:03512] [10] /usr/local/lib/libmpi.so.40(PMPI_Gather+0x197)[0x7fdcd1406e67]
+[node-02:03512] [11] /home/user04/variasi/matmul_variasi.o(+0xef3)[0x5652235a6ef3]
+[node-02:03512] [12] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fdcd0fbfc87]
+[node-02:03512] [13] /home/user04/variasi/matmul_variasi.o(+0xa9a)[0x5652235a6a9a]
+[node-02:03512] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 3512 on node node-02 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
