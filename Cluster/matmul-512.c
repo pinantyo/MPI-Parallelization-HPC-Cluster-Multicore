@@ -77,10 +77,12 @@ main(int argc, char **argv)
   /*---------------------------- worker----------------------------*/
   if (taskid > 0) {
     source = 0;
+    double start_communication_worker = MPI_Wtime();
     MPI_Recv(&offset, 1, MPI_INT, source, 1, MPI_COMM_WORLD, &status);
     MPI_Recv(&rows, 1, MPI_INT, source, 1, MPI_COMM_WORLD, &status);
     MPI_Recv(&a, rows*N, MPI_DOUBLE, source, 1, MPI_COMM_WORLD, &status);
     MPI_Recv(&b, N*N, MPI_DOUBLE, source, 1, MPI_COMM_WORLD, &status);
+    printf(" ********** time MPI Recv Worker = %f \n", MPI_Wtime() - start_communication_worker);
 
     /* Matrix multiplication */
     for (k=0; k<N; k++)
@@ -90,12 +92,22 @@ main(int argc, char **argv)
           c[i][k] = c[i][k] + a[i][j] * b[j][k];
       }
 
-
+    start_communication_worker = MPI_Wtime();
     MPI_Send(&offset, 1, MPI_INT, 0, 2, MPI_COMM_WORLD);
     MPI_Send(&rows, 1, MPI_INT, 0, 2, MPI_COMM_WORLD);
     MPI_Send(&c, rows*N, MPI_DOUBLE, 0, 2, MPI_COMM_WORLD);
+    printf(" ********** time MPI Send Worker = %f \n", MPI_Wtime() - start_communication_worker);
+
   }
 
   MPI_Finalize();
 }
+
+
+
+
+
+
+
+
 

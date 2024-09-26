@@ -1,3 +1,33 @@
+ ********** time MPI Recv Worker = 0.072380 
+ ********** time MPI Recv Worker = 0.084086 
+ ********** time MPI Recv Worker = 0.106248 
+ ********** time MPI Recv Worker = 0.123409 
+ ********** time MPI Recv Worker = 0.142711 
+ ********** time MPI Recv Worker = 0.161162 
+ ********** time MPI Recv Worker = 0.182067 
+ ********** time MPI Recv Worker = 0.498149 
+ ********** time MPI Recv Worker = 0.806842 
+ ********** time MPI Recv Worker = 1.116906 
+ ********** time MPI Recv Worker = 1.427131 
+ ********** time MPI Recv Worker = 1.734819 
+ ********** time MPI Recv Worker = 3.041961 
+ ********** time MPI Recv Worker = 3.348990 
+ ********** time MPI Recv Worker = 4.643253 
+ ********** time MPI Send Worker = 0.001111 
+ ********** time MPI Send Worker = 1.393937 
+ ********** time MPI Send Worker = 0.575890 
+ ********** time MPI Send Worker = 0.001056 
+ ********** time MPI Send Worker = 5.608718 
+ ********** time MPI Send Worker = 1.416328 
+ ********** time MPI Send Worker = 1.353174 
+ ********** time MPI Send Worker = 0.015019 
+ ********** time MPI Send Worker = 9.031103 
+ ********** time MPI Send Worker = 6.721469 
+ ********** time MPI Send Worker = 6.160383 
+ ********** time MPI Send Worker = 0.014163 
+ ********** time MPI Send Worker = 0.014944 
+ ********** time MPI Send Worker = 0.014323 
+ ********** time MPI Send Worker = 5.506874 
 Here is the result matrix:
-Time = 47.655061
+Time = 42.300582
 

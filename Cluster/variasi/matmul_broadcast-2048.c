@@ -70,8 +70,10 @@ int main(int argc, char *argv[])
     start = MPI_Wtime();
   }
 
+  double start_communication = MPI_Wtime();
   MPI_Bcast (B, SIZE*SIZE, MPI_INT, 0, MPI_COMM_WORLD);
   MPI_Scatter (A, SIZE*SIZE/P, MPI_INT, A[from], SIZE*SIZE/P, MPI_INT, 0, MPI_COMM_WORLD);
+  printf(" ********** time Bcast Scatter = %f \n", MPI_Wtime() - start_communication);
 
   printf("computing slice %d (from row %d to %d)\n", myrank, from, to-1);
   for (i=from; i<to; i++) 
@@ -81,9 +83,9 @@ int main(int argc, char *argv[])
   C[i][j] += A[i][k]*B[k][j];
     }
 
+  start_communication = MPI_Wtime();
   MPI_Gather (C[from], SIZE*SIZE/P, MPI_INT, C, SIZE*SIZE/P, MPI_INT, 0, MPI_COMM_WORLD);
-
-  end = MPI_Wtime(); /* only 1 process needs to do this */
+  printf(" ********** time Gather = %f \n", MPI_Wtime() - start_communication);
 
   if (myrank==0) {
     double time = end - start;

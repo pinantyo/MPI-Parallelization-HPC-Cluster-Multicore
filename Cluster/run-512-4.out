@@ -1,3 +1,9 @@
+ ********** time MPI Recv Worker = 0.005185 
+ ********** time MPI Recv Worker = 0.006422 
+ ********** time MPI Recv Worker = 0.007802 
+ ********** time MPI Send Worker = 0.000260 
+ ********** time MPI Send Worker = 0.017605 
 Here is the result matrix:
-Time = 0.385518
+Time = 0.314477
 
+ ********** time MPI Send Worker = 0.022249 

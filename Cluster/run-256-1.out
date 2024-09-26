@@ -1,16 +1,16 @@
-[node-06:18683] *** Process received signal ***
-[node-06:18683] Signal: Floating point exception (8)
-[node-06:18683] Signal code: Integer divide-by-zero (1)
-[node-06:18683] Failing at address: 0x556a30724c29
-[node-06:18683] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f39c2be9f10]
-[node-06:18683] [ 1] /home/user04/matmul-256.o(+0xc29)[0x556a30724c29]
-[node-06:18683] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f39c2bccc87]
-[node-06:18683] [ 3] /home/user04/matmul-256.o(+0xa3a)[0x556a30724a3a]
-[node-06:18683] *** End of error message ***
+[node-06:25399] *** Process received signal ***
+[node-06:25399] Signal: Floating point exception (8)
+[node-06:25399] Signal code: Integer divide-by-zero (1)
+[node-06:25399] Failing at address: 0x55eb669c2cb9
+[node-06:25399] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fb7f1104f10]
+[node-06:25399] [ 1] /home/user04/matmul-256.o(+0xcb9)[0x55eb669c2cb9]
+[node-06:25399] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb7f10e7c87]
+[node-06:25399] [ 3] /home/user04/matmul-256.o(+0xaca)[0x55eb669c2aca]
+[node-06:25399] *** End of error message ***
 --------------------------------------------------------------------------
 Primary job  terminated normally, but 1 process returned
 a non-zero exit code. Per user-direction, the job has been aborted.
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-mpirun noticed that process rank 0 with PID 18683 on node node-06 exited on signal 8 (Floating point exception).
+mpirun noticed that process rank 0 with PID 25399 on node node-06 exited on signal 8 (Floating point exception).
 --------------------------------------------------------------------------

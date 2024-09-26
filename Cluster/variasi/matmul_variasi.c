@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <sys/time.h>
 
-#define N 256
+#define N 10
 
 double a[N][N], b[N][N], c[N][N];
 

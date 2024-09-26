@@ -1,33 +1,97 @@
-computing slice 1 (from row 16 to 31)
+ ********** time Bcast Scatter = 0.014906 
+ ********** time Bcast Scatter = 0.014991 
 computing slice 2 (from row 32 to 47)
-computing slice 3 (from row 48 to 63)
+computing slice 1 (from row 16 to 31)
+ ********** time Bcast Scatter = 0.015144 
+ ********** time Bcast Scatter = 0.015271 
 computing slice 4 (from row 64 to 79)
-computing slice 5 (from row 80 to 95)
+computing slice 3 (from row 48 to 63)
+ ********** time Bcast Scatter = 0.015239 
+ ********** time Bcast Scatter = 0.015288 
 computing slice 6 (from row 96 to 111)
+ ********** time Bcast Scatter = 0.015264 
 computing slice 7 (from row 112 to 127)
+computing slice 5 (from row 80 to 95)
+ ********** time Bcast Scatter = 0.027636 
 computing slice 8 (from row 128 to 143)
+ ********** time Bcast Scatter = 0.031288 
 computing slice 9 (from row 144 to 159)
+ ********** time Bcast Scatter = 0.040692 
 computing slice 10 (from row 160 to 175)
+ ********** time Bcast Scatter = 0.050672 
 computing slice 11 (from row 176 to 191)
+ ********** time Bcast Scatter = 0.060693 
 computing slice 12 (from row 192 to 207)
+ ********** time Bcast Scatter = 0.070738 
 computing slice 13 (from row 208 to 223)
+ ********** time Bcast Scatter = 0.070665 
 computing slice 14 (from row 224 to 239)
+ ********** time Bcast Scatter = 0.072429 
 computing slice 15 (from row 240 to 255)
+ ********** time Bcast Scatter = 0.071130 
 computing slice 16 (from row 256 to 271)
+ ********** time Bcast Scatter = 0.080681 
 computing slice 17 (from row 272 to 287)
+ ********** time Bcast Scatter = 0.090687 
 computing slice 18 (from row 288 to 303)
+ ********** time Bcast Scatter = 0.100694 
 computing slice 19 (from row 304 to 319)
+ ********** time Bcast Scatter = 0.110690 
 computing slice 20 (from row 320 to 335)
+ ********** time Bcast Scatter = 0.120722 
 computing slice 21 (from row 336 to 351)
+ ********** time Bcast Scatter = 0.130817 
 computing slice 22 (from row 352 to 367)
+ ********** time Bcast Scatter = 0.131400 
 computing slice 23 (from row 368 to 383)
+ ********** time Bcast Scatter = 0.132170 
 computing slice 24 (from row 384 to 399)
+ ********** time Bcast Scatter = 0.140643 
 computing slice 25 (from row 400 to 415)
+ ********** time Bcast Scatter = 0.150653 
 computing slice 26 (from row 416 to 431)
+ ********** time Bcast Scatter = 0.160641 
 computing slice 27 (from row 432 to 447)
+ ********** time Bcast Scatter = 0.170689 
 computing slice 28 (from row 448 to 463)
+ ********** time Bcast Scatter = 0.180701 
 computing slice 29 (from row 464 to 479)
+ ********** time Bcast Scatter = 0.180669 
 computing slice 30 (from row 480 to 495)
+ ********** time Bcast Scatter = 0.188198 
 computing slice 0 (from row 0 to 15)
+ ********** time Bcast Scatter = 0.190806 
 computing slice 31 (from row 496 to 511)
- ********** time = 0.251268 
+ ********** time Gather = 0.164734 
+ ********** time Gather = 0.169738 
+ ********** time Gather = 0.169730 
+ ********** time Gather = 0.167343 
+ ********** time Gather = 0.168460 
+ ********** time Gather = 0.169010 
+ ********** time Gather = 0.168760 
+ ********** time Gather = 0.153412 
+ ********** time Gather = 0.158692 
+ ********** time Gather = 0.146127 
+ ********** time Gather = 0.136028 
+ ********** time Gather = 0.124580 
+ ********** time Gather = 0.112672 
+ ********** time Gather = 0.111438 
+ ********** time Gather = 0.110932 
+ ********** time Gather = 0.117466 
+ ********** time Gather = 0.111309 
+ ********** time Gather = 0.093802 
+ ********** time Gather = 0.084997 
+ ********** time Gather = 0.079324 
+ ********** time Gather = 0.068040 
+ ********** time Gather = 0.053769 
+ ********** time Gather = 0.055896 
+ ********** time Gather = 0.062572 
+ ********** time Gather = 0.053354 
+ ********** time Gather = 0.042804 
+ ********** time Gather = 0.032257 
+ ********** time Gather = 0.016961 
+ ********** time Gather = 0.008991 
+ ********** time Gather = 0.003680 
+ ********** time Gather = 0.000079 
+ ********** time Gather = 0.009611 
+ ********** time = 0.000000 
