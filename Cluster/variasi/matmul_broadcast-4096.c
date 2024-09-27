@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
   printf(" ********** time Gather = %f \n", MPI_Wtime() - start_communication);
 
   if (myrank==0) {
-    double time = end - start;
+    double time = MPI_Wtime() - start;
     printf(" ********** time = %f \n", time);
     // printf("\n\n");
     // print_matrix(A);

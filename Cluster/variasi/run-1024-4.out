@@ -1,13 +1,13 @@
- ********** time Bcast Scatter = 0.010752 
+ ********** time Bcast Scatter = 0.010319 
 computing slice 1 (from row 256 to 511)
- ********** time Bcast Scatter = 0.011342 
+ ********** time Bcast Scatter = 0.011578 
 computing slice 2 (from row 512 to 767)
- ********** time Bcast Scatter = 0.004661 
+ ********** time Bcast Scatter = 0.004699 
 computing slice 0 (from row 0 to 255)
- ********** time Bcast Scatter = 0.011770 
+ ********** time Bcast Scatter = 0.012040 
 computing slice 3 (from row 768 to 1023)
- ********** time Gather = 0.056248 
- ********** time Gather = 0.000418 
- ********** time Gather = 0.286101 
- ********** time = 0.000000 
- ********** time Gather = 0.000410 
+ ********** time Gather = 0.009227 
+ ********** time Gather = 0.009409 
+ ********** time Gather = 0.001094 
+ ********** time Gather = 0.001224 
+ ********** time = 2.472140 
