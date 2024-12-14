@@ -1,4 +1,4 @@
- ********** time Bcast Scatter = 0.000008 
+ ********** time Bcast Scatter = 0.000016 
 computing slice 0 (from row 0 to 4095)
  ********** time Gather = 0.000005 
- ********** time = 0.000000 
+ ********** time = 1753.657301 

@@ -1,0 +1,113 @@
+Jacobi  Iterations
+Running Gauss-Seidel Iterations for Matrix Size 256, Method 500
+
+
+Running Matrix Size 256, Method 500, Process 2
+
+
+1 Coordinator and 1 Workers
+  gridSize:  256
+  stripSize:  256
+  numIters:  500
+Worker 1 initialized; left is worker 0 and right is worker 0
+got results from worker 1
+maxdiff of worker 1 is 0.000720
+global maxdiff is 0.000720
+Running Matrix Size 256, Method 500, Process 4
+
+
+grid size must be a multiple of number of workers
+1 Coordinator and 3 Workers
+  gridSize:  256
+  stripSize:  85
+  numIters:  500
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+Worker 3 initialized; left is worker 2 and right is worker 0
+Worker 1 initialized; left is worker 0 and right is worker 2
+Worker 2 initialized; left is worker 1 and right is worker 3
+got results from worker 1
+got results from worker 2
+maxdiff of worker 1 is 0.000720
+maxdiff of worker 2 is 0.000495
+got results from worker 3
+maxdiff of worker 3 is 0.000720
+global maxdiff is 0.000720
+Running Matrix Size 256, Method 500, Process 8
+
+
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+1 Coordinator and 7 Workers
+  gridSize:  256
+  stripSize:  36
+  numIters:  500
+Worker 7 initialized; left is worker 6 and right is worker 0
+Worker 4 initialized; left is worker 3 and right is worker 5
+Worker 5 initialized; left is worker 4 and right is worker 6
+Worker 3 initialized; left is worker 2 and right is worker 4
+Worker 1 initialized; left is worker 0 and right is worker 2
+Worker 6 initialized; left is worker 5 and right is worker 7
+grid size must be a multiple of number of workers
+Worker 2 initialized; left is worker 1 and right is worker 3
+got results from worker 1
+got results from worker 2
+maxdiff of worker 5 is 0.000493
+maxdiff of worker 7 is 0.000716
+maxdiff of worker 1 is 0.000716
+maxdiff of worker 6 is 0.000564
+maxdiff of worker 3 is 0.000493
+maxdiff of worker 2 is 0.000564
+maxdiff of worker 4 is 0.000493
+got results from worker 3
+got results from worker 4
+got results from worker 5
+got results from worker 6
+got results from worker 7
+global maxdiff is 0.000716
+Running Matrix Size 256, Method 500, Process 16
+
+
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+1 Coordinator and 15 Workers
+  gridSize:  256
+  stripSize:  17
+  numIters:  500
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+Worker 4 initialized; left is worker 3 and right is worker 5
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+Worker 1 initialized; left is worker 0 and right is worker 2
+Worker 2 initialized; left is worker 1 and right is worker 3
+Worker 7 initialized; left is worker 6 and right is worker 8
+Worker 5 initialized; left is worker 4 and right is worker 6
+Worker 3 initialized; left is worker 2 and right is worker 4
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+Worker 9 initialized; left is worker 8 and right is worker 10
+Worker 10 initialized; left is worker 9 and right is worker 11
+Worker 14 initialized; left is worker 13 and right is worker 15
+Worker 11 initialized; left is worker 10 and right is worker 12
+Worker 15 initialized; left is worker 14 and right is worker 0
+Worker 8 initialized; left is worker 7 and right is worker 9
+grid size must be a multiple of number of workers
+Worker 6 initialized; left is worker 5 and right is worker 7
+grid size must be a multiple of number of workers
+Worker 12 initialized; left is worker 11 and right is worker 13
+grid size must be a multiple of number of workers
+Worker 13 initialized; left is worker 12 and right is worker 14
+[node-01][[996,1],7][btl_tcp_endpoint.c:626:mca_btl_tcp_endpoint_recv_connect_ack] received unexpected process identifier [[996,1],0]
+[node-02][[996,1],8][btl_tcp_endpoint.c:626:mca_btl_tcp_endpoint_recv_connect_ack] received unexpected process identifier [[996,1],15]

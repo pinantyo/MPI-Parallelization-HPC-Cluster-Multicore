@@ -1,0 +1,13 @@
+Process	Size	Time
+Result matrix:
+1	2048	Time = 105.700395 seconds
+Result matrix:
+2	2048	Time = 55.077824 seconds
+Result matrix:
+4	2048	Time = 42.333419 seconds
+Result matrix:
+8	2048	Time = 25.361863 seconds
+Result matrix:
+16	2048	Time = 14.919907 seconds
+Result matrix:
+32	2048	Time = 13.352483 seconds

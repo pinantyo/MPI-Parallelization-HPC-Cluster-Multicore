@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SIZE 256      /* Size of matrices */
+#define SIZE 4096      /* Size of matrices */
 
 int A[SIZE][SIZE], B[SIZE][SIZE], C[SIZE][SIZE];
 
@@ -65,10 +65,8 @@ int main(int argc, char *argv[])
   if (myrank==0) {
     fill_matrix(A);
     fill_matrix(B);
+    start = MPI_Wtime();
   }
-
-
-  start = MPI_Wtime();
 
   MPI_Bcast (B, SIZE*SIZE, MPI_INT, 0, MPI_COMM_WORLD);
   MPI_Scatter (A, SIZE*SIZE/P, MPI_INT, A[from], SIZE*SIZE/P, MPI_INT, 0, MPI_COMM_WORLD);
@@ -87,8 +85,10 @@ int main(int argc, char *argv[])
 
   // we write the time
   double time = end - start;
-  
+
   if (myrank==0) {
+    double time = end - start;
+    printf(" ********** time = %f \n", time);
     // printf("\n\n");
     // print_matrix(A);
     // printf("\n\n\t       * \n");
@@ -96,12 +96,12 @@ int main(int argc, char *argv[])
     // printf("\n\n\t       = \n");
     // print_matrix(C);
     // printf("\n\n");
-    printf(" ********** time = %f \n", time);
   }
 
   MPI_Finalize();
   return 0;
 }
+
 
 
 

@@ -1,0 +1,25 @@
+[node-06:28952] *** Process received signal ***
+[node-06:28952] Signal: Segmentation fault (11)
+[node-06:28952] Signal code: Address not mapped (1)
+[node-06:28952] Failing at address: 0x7ffcf0e08f80
+[node-06:28952] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f890e3f9f10]
+[node-06:28952] [ 1] /lib/x86_64-linux-gnu/libc.so.6(+0xbb3da)[0x7f890e4763da]
+[node-06:28952] [ 2] /usr/local/lib/openmpi/mca_btl_tcp.so(mca_btl_tcp_frag_recv+0x83)[0x7f89023d84d3]
+[node-06:28952] [ 3] /usr/local/lib/openmpi/mca_btl_tcp.so(+0x86fe)[0x7f89023d66fe]
+[node-06:28952] [ 4] /usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.6(+0x1aed8)[0x7f890cffbed8]
+[node-06:28952] [ 5] /usr/lib/x86_64-linux-gnu/libevent_core-2.1.so.6(event_base_loop+0x53f)[0x7f890cffc91f]
+[node-06:28952] [ 6] /usr/local/lib/libopen-pal.so.40(opal_progress+0xf5)[0x7f890de7ced5]
+[node-06:28952] [ 7] /usr/local/lib/openmpi/mca_pml_ob1.so(mca_pml_ob1_recv+0x2c5)[0x7f890179d025]
+[node-06:28952] [ 8] /usr/local/lib/openmpi/mca_coll_inter.so(mca_coll_inter_bcast_inter+0x80)[0x7f890052f900]
+[node-06:28952] [ 9] /usr/local/lib/libmpi.so.40(MPI_Bcast+0x116)[0x7f890e812de6]
+[node-06:28952] [10] worker(+0xbd9)[0x563e07aefbd9]
+[node-06:28952] [11] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f890e3dcc87]
+[node-06:28952] [12] worker(+0xa1a)[0x563e07aefa1a]
+[node-06:28952] *** End of error message ***
+--------------------------------------------------------------------------
+Child job 2 terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 28952 on node node-06 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

@@ -4,7 +4,7 @@
 
 
 #include "mpi.h"
-#define N                 4096      /* number of rows and columns in matrix */
+#define N                 256      /* number of rows and columns in matrix */
 #include <time.h>
 #include <stdbool.h>
 #include <stdint.h>

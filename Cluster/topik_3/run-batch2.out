@@ -1,0 +1,465 @@
+Point-to-point Gauss-Seidel Iterations
+Running Gauss-Seidel Iterations for Matrix Size 256, Method 0
+
+
+Running Matrix Size 256, Method 0, Process 1
+
+
+Matrix size = 256 communication = 0
+Node 0: Solver converged after 13 iterations
+Communication time: 0.001280
+Operations time: 0.011383
+Total time: 0.012663
+Running Matrix Size 256, Method 0, Process 2
+
+
+Matrix size = 256 communication = 0
+Node 1: Solver converged after 13 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.001423
+Operations time: 0.005906
+Total time: 0.007329
+Running Matrix Size 256, Method 0, Process 4
+
+
+Matrix size = 256 communication = 0
+Node 1: Solver converged after 11 iterations
+Node 0: Solver converged after 13 iterations
+Node 2: Solver converged after 13 iterations
+Node 3: Solver converged after 13 iterations
+Communication time: 0.002100
+Operations time: 0.005399
+Total time: 0.007499
+Running Matrix Size 256, Method 0, Process 8
+
+
+Matrix size = 256 communication = 0
+Node 1: Solver converged after 11 iterations
+Node 2: Solver converged after 11 iterations
+Node 7: Solver converged after 10 iterations
+Node 5: Solver converged after 11 iterations
+Node 3: Solver converged after 12 iterations
+Node 6: Solver converged after 12 iterations
+Node 4: Solver converged after 13 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.002410
+Operations time: 0.002669
+Total time: 0.005079
+Running Gauss-Seidel Iterations for Matrix Size 512, Method 0
+
+
+Running Matrix Size 512, Method 0, Process 1
+
+
+Matrix size = 512 communication = 0
+Node 0: Solver converged after 13 iterations
+Communication time: 0.005845
+Operations time: 0.046576
+Total time: 0.052422
+Running Matrix Size 512, Method 0, Process 2
+
+
+Matrix size = 512 communication = 0
+Node 1: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.005786
+Operations time: 0.023324
+Total time: 0.029110
+Running Matrix Size 512, Method 0, Process 4
+
+
+Matrix size = 512 communication = 0
+Node 3: Solver converged after 11 iterations
+Node 1: Solver converged after 12 iterations
+Node 2: Solver converged after 13 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.005758
+Operations time: 0.012397
+Total time: 0.018155
+Running Matrix Size 512, Method 0, Process 8
+
+
+Matrix size = 512 communication = 0
+Node 3: Solver converged after 11 iterations
+Node 6: Solver converged after 11 iterations
+Node 7: Solver converged after 11 iterations
+Node 1: Solver converged after 12 iterations
+Node 2: Solver converged after 12 iterations
+Node 4: Solver converged after 12 iterations
+Node 5: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.008012
+Operations time: 0.010961
+Total time: 0.018973
+Running Gauss-Seidel Iterations for Matrix Size 1024, Method 0
+
+
+Running Matrix Size 1024, Method 0, Process 1
+
+
+Matrix size = 1024 communication = 0
+Node 0: Solver converged after 13 iterations
+Communication time: 0.020535
+Operations time: 0.181171
+Total time: 0.201706
+Running Matrix Size 1024, Method 0, Process 2
+
+
+Matrix size = 1024 communication = 0
+Node 1: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.022614
+Operations time: 0.093085
+Total time: 0.115698
+Running Matrix Size 1024, Method 0, Process 4
+
+
+Matrix size = 1024 communication = 0
+Node 1: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Node 2: Solver converged after 12 iterations
+Node 3: Solver converged after 12 iterations
+Communication time: 0.044992
+Operations time: 0.049382
+Total time: 0.094373
+Running Matrix Size 1024, Method 0, Process 8
+
+
+Matrix size = 1024 communication = 0
+Node 6: Solver converged after 11 iterations
+Node 2: Solver converged after 12 iterations
+Node 4: Solver converged after 12 iterations
+Node 5: Solver converged after 12 iterations
+Node 7: Solver converged after 12 iterations
+Node 1: Solver converged after 13 iterations
+Node 3: Solver converged after 13 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.031903
+Operations time: 0.044606
+Total time: 0.076509
+Running Gauss-Seidel Iterations for Matrix Size 2048, Method 0
+
+
+Running Matrix Size 2048, Method 0, Process 1
+
+
+Matrix size = 2048 communication = 0
+Node 0: Solver converged after 13 iterations
+Communication time: 0.076582
+Operations time: 0.730708
+Total time: 0.807290
+Running Matrix Size 2048, Method 0, Process 2
+
+
+Matrix size = 2048 communication = 0
+Node 0: Solver converged after 13 iterations
+Node 1: Solver converged after 14 iterations
+Communication time: 0.112835
+Operations time: 0.375694
+Total time: 0.488529
+Running Matrix Size 2048, Method 0, Process 4
+
+
+Matrix size = 2048 communication = 0
+Node 3: Solver converged after 12 iterations
+Node 1: Solver converged after 13 iterations
+Node 2: Solver converged after 13 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.102960
+Operations time: 0.202044
+Total time: 0.305003
+Running Matrix Size 2048, Method 0, Process 8
+
+
+Matrix size = 2048 communication = 0
+Node 1: Solver converged after 12 iterations
+Node 2: Solver converged after 12 iterations
+Node 3: Solver converged after 12 iterations
+Node 0: Solver converged after 12 iterations
+Node 7: Solver converged after 12 iterations
+Node 6: Solver converged after 12 iterations
+Node 5: Solver converged after 13 iterations
+Node 4: Solver converged after 13 iterations
+Communication time: 0.141904
+Operations time: 0.167105
+Total time: 0.309010
+Running Gauss-Seidel Iterations for Matrix Size 4096, Method 0
+
+
+Running Matrix Size 4096, Method 0, Process 1
+
+
+Matrix size = 4096 communication = 0
+Node 0: Solver converged after 12 iterations
+Communication time: 0.304575
+Operations time: 2.692175
+Total time: 2.996750
+Running Matrix Size 4096, Method 0, Process 2
+
+
+Matrix size = 4096 communication = 0
+Node 1: Solver converged after 12 iterations
+Node 0: Solver converged after 12 iterations
+Communication time: 0.334778
+Operations time: 1.383551
+Total time: 1.718329
+Running Matrix Size 4096, Method 0, Process 4
+
+
+Matrix size = 4096 communication = 0
+Node 1: Solver converged after 12 iterations
+Node 2: Solver converged after 12 iterations
+Node 0: Solver converged after 12 iterations
+Node 3: Solver converged after 12 iterations
+Communication time: 0.362315
+Operations time: 0.745293
+Total time: 1.107608
+Running Matrix Size 4096, Method 0, Process 8
+
+
+Matrix size = 4096 communication = 0
+Node 3: Solver converged after 12 iterations
+Node 1: Solver converged after 12 iterations
+Node 4: Solver converged after 12 iterations
+Node 5: Solver converged after 12 iterations
+Node 6: Solver converged after 12 iterations
+Node 7: Solver converged after 12 iterations
+Node 0: Solver converged after 12 iterations
+Node 2: Solver converged after 13 iterations
+Communication time: 0.528479
+Operations time: 0.682530
+Total time: 1.211010
+
+
+
+Collective Communication Gauss-Seidel Iterations
+Running Gauss-Seidel Iterations for Matrix Size 256, Method 1
+
+
+Running Matrix Size 256, Method 1, Process 1
+
+
+Matrix size = 256 communication = 1
+Node 0: Solver converged after 13 iterations
+Communication time: 0.001395
+Operations time: 0.011424
+Total time: 0.012819
+Running Matrix Size 256, Method 1, Process 2
+
+
+Matrix size = 256 communication = 1
+Node 1: Solver converged after 13 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.001612
+Operations time: 0.006215
+Total time: 0.007827
+Running Matrix Size 256, Method 1, Process 4
+
+
+Matrix size = 256 communication = 1
+Node 0: Solver converged after 13 iterations
+Node 3: Solver converged after 13 iterations
+Node 1: Solver converged after 11 iterations
+Node 2: Solver converged after 13 iterations
+Communication time: 0.003603
+Operations time: 0.002943
+Total time: 0.006547
+Running Matrix Size 256, Method 1, Process 8
+
+
+Matrix size = 256 communication = 1
+Node 4: Solver converged after 13 iterations
+Node 1: Solver converged after 11 iterations
+Node 2: Solver converged after 11 iterations
+Node 5: Solver converged after 11 iterations
+Node 3: Solver converged after 12 iterations
+Node 7: Solver converged after 10 iterations
+Node 6: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.004146
+Operations time: 0.002853
+Total time: 0.006999
+Running Gauss-Seidel Iterations for Matrix Size 512, Method 1
+
+
+Running Matrix Size 512, Method 1, Process 1
+
+
+Matrix size = 512 communication = 1
+Node 0: Solver converged after 13 iterations
+Communication time: 0.009101
+Operations time: 0.045232
+Total time: 0.054333
+Running Matrix Size 512, Method 1, Process 2
+
+
+Matrix size = 512 communication = 1
+Node 1: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.005723
+Operations time: 0.023373
+Total time: 0.029096
+Running Matrix Size 512, Method 1, Process 4
+
+
+Matrix size = 512 communication = 1
+Node 1: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Node 3: Solver converged after 11 iterations
+Node 2: Solver converged after 13 iterations
+Communication time: 0.015375
+Operations time: 0.011904
+Total time: 0.027279
+Running Matrix Size 512, Method 1, Process 8
+
+
+Matrix size = 512 communication = 1
+Node 3: Solver converged after 11 iterations
+Node 1: Solver converged after 12 iterations
+Node 2: Solver converged after 12 iterations
+Node 6: Solver converged after 11 iterations
+Node 7: Solver converged after 11 iterations
+Node 4: Solver converged after 12 iterations
+Node 5: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.009036
+Operations time: 0.011042
+Total time: 0.020078
+Running Gauss-Seidel Iterations for Matrix Size 1024, Method 1
+
+
+Running Matrix Size 1024, Method 1, Process 1
+
+
+Matrix size = 1024 communication = 1
+Node 0: Solver converged after 13 iterations
+Communication time: 0.022119
+Operations time: 0.181699
+Total time: 0.203818
+Running Matrix Size 1024, Method 1, Process 2
+
+
+Matrix size = 1024 communication = 1
+Node 1: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.022912
+Operations time: 0.093482
+Total time: 0.116394
+Running Matrix Size 1024, Method 1, Process 4
+
+
+Matrix size = 1024 communication = 1
+Node 1: Solver converged after 12 iterations
+Node 0: Solver converged after 13 iterations
+Node 2: Solver converged after 12 iterations
+Node 3: Solver converged after 12 iterations
+Communication time: 0.030110
+Operations time: 0.048337
+Total time: 0.078447
+Running Matrix Size 1024, Method 1, Process 8
+
+
+Matrix size = 1024 communication = 1
+Node 6: Solver converged after 11 iterations
+Node 2: Solver converged after 12 iterations
+Node 4: Solver converged after 12 iterations
+Node 5: Solver converged after 12 iterations
+Node 7: Solver converged after 12 iterations
+Node 1: Solver converged after 13 iterations
+Node 3: Solver converged after 13 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.032269
+Operations time: 0.044841
+Total time: 0.077110
+Running Gauss-Seidel Iterations for Matrix Size 2048, Method 1
+
+
+Running Matrix Size 2048, Method 1, Process 1
+
+
+Matrix size = 2048 communication = 1
+Node 0: Solver converged after 13 iterations
+Communication time: 0.088407
+Operations time: 0.733854
+Total time: 0.822261
+Running Matrix Size 2048, Method 1, Process 2
+
+
+Matrix size = 2048 communication = 1
+Node 0: Solver converged after 13 iterations
+Node 1: Solver converged after 14 iterations
+Communication time: 0.130266
+Operations time: 0.375734
+Total time: 0.506000
+Running Matrix Size 2048, Method 1, Process 4
+
+
+Matrix size = 2048 communication = 1
+Node 3: Solver converged after 12 iterations
+Node 1: Solver converged after 13 iterations
+Node 2: Solver converged after 13 iterations
+Node 0: Solver converged after 13 iterations
+Communication time: 0.093771
+Operations time: 0.198053
+Total time: 0.291824
+Running Matrix Size 2048, Method 1, Process 8
+
+
+Matrix size = 2048 communication = 1
+Node 1: Solver converged after 12 iterations
+Node 2: Solver converged after 12 iterations
+Node 3: Solver converged after 12 iterations
+Node 6: Solver converged after 12 iterations
+Node 0: Solver converged after 12 iterations
+Node 7: Solver converged after 12 iterations
+Node 5: Solver converged after 13 iterations
+Node 4: Solver converged after 13 iterations
+Communication time: 0.135277
+Operations time: 0.167187
+Total time: 0.302464
+Running Gauss-Seidel Iterations for Matrix Size 4096, Method 1
+
+
+Running Matrix Size 4096, Method 1, Process 1
+
+
+Matrix size = 4096 communication = 1
+Node 0: Solver converged after 12 iterations
+Communication time: 0.350788
+Operations time: 2.704312
+Total time: 3.055100
+Running Matrix Size 4096, Method 1, Process 2
+
+
+Matrix size = 4096 communication = 1
+Node 1: Solver converged after 12 iterations
+Node 0: Solver converged after 12 iterations
+Communication time: 0.358658
+Operations time: 1.391384
+Total time: 1.750043
+Running Matrix Size 4096, Method 1, Process 4
+
+
+Matrix size = 4096 communication = 1
+Node 1: Solver converged after 12 iterations
+Node 2: Solver converged after 12 iterations
+Node 0: Solver converged after 12 iterations
+Node 3: Solver converged after 12 iterations
+Communication time: 0.373663
+Operations time: 0.729713
+Total time: 1.103376
+Running Matrix Size 4096, Method 1, Process 8
+
+
+Matrix size = 4096 communication = 1
+Node 1: Solver converged after 12 iterations
+Node 3: Solver converged after 12 iterations
+Node 4: Solver converged after 12 iterations
+Node 5: Solver converged after 12 iterations
+Node 6: Solver converged after 12 iterations
+Node 7: Solver converged after 12 iterations
+Node 0: Solver converged after 12 iterations
+Node 2: Solver converged after 13 iterations
+Communication time: 0.537622
+Operations time: 0.674035
+Total time: 1.211658

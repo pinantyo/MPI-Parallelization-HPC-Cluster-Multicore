@@ -1,0 +1,212 @@
+Jacobi  Iterations
+Running Gauss-Seidel Iterations for Matrix Size 256, Method 100
+
+
+Running Matrix Size 256, Method 100, Process 1
+
+
+[node-01:21215] *** Process received signal ***
+[node-01:21215] Signal: Floating point exception (8)
+[node-01:21215] Signal code: Integer divide-by-zero (1)
+[node-01:21215] Failing at address: 0x5637e1524ce7
+[node-01:21215] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7f0438964f10]
+[node-01:21215] [ 1] /home/user04/topik_3/mpi_jacobi(+0xce7)[0x5637e1524ce7]
+[node-01:21215] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7f0438947c87]
+[node-01:21215] [ 3] /home/user04/topik_3/mpi_jacobi(+0xb6a)[0x5637e1524b6a]
+[node-01:21215] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    node-01
+  Remote host:   node-02
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    node-01
+  Remote host:   node-05
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    node-01
+  Remote host:   node-07
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-01 exited on signal 8 (Floating point exception).
+--------------------------------------------------------------------------
+Running Matrix Size 256, Method 100, Process 2
+
+
+1 Coordinator and 1 Workers
+  gridSize:  256
+  stripSize:  256
+  numIters:  100
+Coordinator time 0.088621 
+Process time 0.088650 
+Communication time 0.053168 
+Running Matrix Size 256, Method 100, Process 4
+
+
+grid size must be a multiple of number of workers
+1 Coordinator and 3 Workers
+  gridSize:  256
+  stripSize:  85
+  numIters:  100
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+Coordinator time 0.070117 
+Process time 0.070139 
+Communication time 0.029985 
+Running Matrix Size 256, Method 100, Process 8
+
+
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+1 Coordinator and 7 Workers
+  gridSize:  256
+  stripSize:  36
+  numIters:  100
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+Coordinator time 0.058457 
+Process time 0.058475 
+Communication time 0.019279 
+Running Gauss-Seidel Iterations for Matrix Size 512, Method 100
+
+
+Running Matrix Size 512, Method 100, Process 1
+
+
+[node-01:21324] *** Process received signal ***
+[node-01:21324] Signal: Floating point exception (8)
+[node-01:21324] Signal code: Integer divide-by-zero (1)
+[node-01:21324] Failing at address: 0x557c61502ce7
+[node-01:21324] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fb8611fdf10]
+[node-01:21324] [ 1] /home/user04/topik_3/mpi_jacobi(+0xce7)[0x557c61502ce7]
+[node-01:21324] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fb8611e0c87]
+[node-01:21324] [ 3] /home/user04/topik_3/mpi_jacobi(+0xb6a)[0x557c61502b6a]
+[node-01:21324] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    node-01
+  Remote host:   node-02
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    node-01
+  Remote host:   node-05
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    node-01
+  Remote host:   node-07
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-01 exited on signal 8 (Floating point exception).
+--------------------------------------------------------------------------
+Running Matrix Size 512, Method 100, Process 2
+
+
+1 Coordinator and 1 Workers
+  gridSize:  512
+  stripSize:  512
+  numIters:  100
+[node-01:21343] *** Process received signal ***
+[node-01:21343] Signal: Segmentation fault (11)
+[node-01:21343] Signal code: Address not mapped (1)
+[node-01:21343] Failing at address: 0x7ffd6a712000
+[node-01:21343] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7efd3be89f10]
+[node-01:21343] [ 1] [0x560626ebe1f5]
+[node-01:21343] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    node-01
+  Remote host:   node-02
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    node-01
+  Remote host:   node-05
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+------------------------------------------------------------
+A process or daemon was unable to complete a TCP connection
+to another process:
+  Local host:    node-01
+  Remote host:   node-07
+This is usually caused by a firewall on the remote host. Please
+check that any firewall (e.g., iptables) has been disabled and
+try again.
+------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 0 on node node-01 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+Running Matrix Size 512, Method 100, Process 4
+
+
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+grid size must be a multiple of number of workers
+1 Coordinator and 3 Workers
+  gridSize:  512
+  stripSize:  170
+  numIters:  100
+slurmstepd: error: *** JOB 8644 ON node-01 CANCELLED AT 2024-10-18T08:44:18 ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[7424,0],0] on node node-01
+  Remote daemon: [[7424,0],3] on node node-07
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------

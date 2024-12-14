@@ -1,0 +1,6 @@
+Matrix size = 4096 communication = 0
+Node 0: Solver converged after 12 iterations
+Node 1: Solver converged after 12 iterations
+Communication time: 0.334801
+Operations time: 1.382627
+Total time: 1.717429

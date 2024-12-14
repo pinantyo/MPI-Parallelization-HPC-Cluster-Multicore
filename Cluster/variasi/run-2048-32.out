@@ -1,97 +1,97 @@
- ********** time Bcast Scatter = 0.282052 
+ ********** time Bcast Scatter = 0.277659 
 computing slice 1 (from row 64 to 127)
- ********** time Bcast Scatter = 0.283935 
+ ********** time Bcast Scatter = 0.279552 
 computing slice 2 (from row 128 to 191)
- ********** time Bcast Scatter = 0.285766 
+ ********** time Bcast Scatter = 0.281218 
 computing slice 3 (from row 192 to 255)
- ********** time Bcast Scatter = 0.287669 
+ ********** time Bcast Scatter = 0.283221 
 computing slice 4 (from row 256 to 319)
- ********** time Bcast Scatter = 0.289473 
+ ********** time Bcast Scatter = 0.280801 
 computing slice 5 (from row 320 to 383)
- ********** time Bcast Scatter = 0.291152 
+ ********** time Bcast Scatter = 0.286822 
 computing slice 6 (from row 384 to 447)
- ********** time Bcast Scatter = 0.293225 
+ ********** time Bcast Scatter = 0.288739 
 computing slice 7 (from row 448 to 511)
- ********** time Bcast Scatter = 0.308682 
+ ********** time Bcast Scatter = 0.297205 
 computing slice 8 (from row 512 to 575)
- ********** time Bcast Scatter = 0.314979 
+ ********** time Bcast Scatter = 0.305177 
 computing slice 9 (from row 576 to 639)
- ********** time Bcast Scatter = 0.325080 
+ ********** time Bcast Scatter = 0.310104 
 computing slice 10 (from row 640 to 703)
- ********** time Bcast Scatter = 0.335136 
+ ********** time Bcast Scatter = 0.315099 
 computing slice 11 (from row 704 to 767)
- ********** time Bcast Scatter = 0.345150 
+ ********** time Bcast Scatter = 0.316187 
 computing slice 12 (from row 768 to 831)
- ********** time Bcast Scatter = 0.355147 
+ ********** time Bcast Scatter = 0.325309 
 computing slice 13 (from row 832 to 895)
- ********** time Bcast Scatter = 0.365613 
+ ********** time Bcast Scatter = 0.335441 
 computing slice 14 (from row 896 to 959)
- ********** time Bcast Scatter = 0.370554 
+ ********** time Bcast Scatter = 0.339614 
 computing slice 15 (from row 960 to 1023)
- ********** time Bcast Scatter = 0.374996 
+ ********** time Bcast Scatter = 0.343884 
 computing slice 16 (from row 1024 to 1087)
- ********** time Bcast Scatter = 0.385150 
+ ********** time Bcast Scatter = 0.356850 
 computing slice 17 (from row 1088 to 1151)
- ********** time Bcast Scatter = 0.395157 
+ ********** time Bcast Scatter = 0.364999 
 computing slice 18 (from row 1152 to 1215)
- ********** time Bcast Scatter = 0.405109 
+ ********** time Bcast Scatter = 0.374996 
 computing slice 19 (from row 1216 to 1279)
- ********** time Bcast Scatter = 0.415172 
+ ********** time Bcast Scatter = 0.385223 
 computing slice 20 (from row 1280 to 1343)
- ********** time Bcast Scatter = 0.425169 
+ ********** time Bcast Scatter = 0.501232 
 computing slice 21 (from row 1344 to 1407)
- ********** time Bcast Scatter = 0.435578 
+ ********** time Bcast Scatter = 0.505238 
 computing slice 22 (from row 1408 to 1471)
- ********** time Bcast Scatter = 0.439616 
+ ********** time Bcast Scatter = 0.505468 
 computing slice 23 (from row 1472 to 1535)
- ********** time Bcast Scatter = 0.444704 
+ ********** time Bcast Scatter = 0.516117 
 computing slice 24 (from row 1536 to 1599)
- ********** time Bcast Scatter = 0.455085 
+ ********** time Bcast Scatter = 0.524974 
 computing slice 25 (from row 1600 to 1663)
- ********** time Bcast Scatter = 0.467746 
+ ********** time Bcast Scatter = 0.534948 
 computing slice 26 (from row 1664 to 1727)
- ********** time Bcast Scatter = 0.475090 
+ ********** time Bcast Scatter = 0.544962 
 computing slice 27 (from row 1728 to 1791)
- ********** time Bcast Scatter = 0.485114 
+ ********** time Bcast Scatter = 0.555044 
 computing slice 28 (from row 1792 to 1855)
- ********** time Bcast Scatter = 0.495159 
+ ********** time Bcast Scatter = 0.565098 
 computing slice 29 (from row 1856 to 1919)
- ********** time Bcast Scatter = 0.505579 
+ ********** time Bcast Scatter = 0.575124 
 computing slice 30 (from row 1920 to 1983)
- ********** time Bcast Scatter = 0.472867 
+ ********** time Bcast Scatter = 0.543534 
 computing slice 0 (from row 0 to 63)
- ********** time Bcast Scatter = 0.515208 
+ ********** time Bcast Scatter = 0.585193 
 computing slice 31 (from row 1984 to 2047)
- ********** time Gather = 1.400232 
- ********** time Gather = 1.806658 
- ********** time Gather = 2.158118 
- ********** time Gather = 2.048368 
- ********** time Gather = 0.645410 
- ********** time Gather = 1.280605 
- ********** time Gather = 0.699528 
- ********** time Gather = 3.578974 
- ********** time Gather = 3.708214 
- ********** time Gather = 3.418166 
- ********** time Gather = 3.461979 
- ********** time Gather = 1.008908 
- ********** time Gather = 3.313193 
- ********** time Gather = 3.540537 
- ********** time Gather = 1.063651 
- ********** time Gather = 3.100876 
- ********** time Gather = 3.789161 
- ********** time Gather = 1.998327 
- ********** time Gather = 0.896793 
- ********** time Gather = 0.957109 
- ********** time Gather = 0.916777 
- ********** time Gather = 1.927435 
- ********** time Gather = 0.923568 
- ********** time Gather = 0.708767 
- ********** time Gather = 0.642833 
- ********** time Gather = 1.602592 
- ********** time Gather = 2.095912 
- ********** time Gather = 1.724258 
- ********** time Gather = 1.886573 
- ********** time Gather = 2.067056 
- ********** time Gather = 1.853910 
- ********** time Gather = 0.111697 
- ********** time = 0.000000 
+ ********** time Gather = 2.636434 
+ ********** time Gather = 1.385754 
+ ********** time Gather = 2.938879 
+ ********** time Gather = 0.886850 
+ ********** time Gather = 2.160068 
+ ********** time Gather = 2.791519 
+ ********** time Gather = 2.513039 
+ ********** time Gather = 3.426222 
+ ********** time Gather = 1.958829 
+ ********** time Gather = 3.514044 
+ ********** time Gather = 1.740487 
+ ********** time Gather = 3.508066 
+ ********** time Gather = 3.376201 
+ ********** time Gather = 3.406025 
+ ********** time Gather = 3.421620 
+ ********** time Gather = 3.380292 
+ ********** time Gather = 3.607827 
+ ********** time Gather = 1.650104 
+ ********** time Gather = 1.860119 
+ ********** time Gather = 2.426838 
+ ********** time Gather = 1.573812 
+ ********** time Gather = 1.574566 
+ ********** time Gather = 1.795071 
+ ********** time Gather = 1.603934 
+ ********** time Gather = 2.760601 
+ ********** time Gather = 2.521903 
+ ********** time Gather = 2.618477 
+ ********** time Gather = 2.392520 
+ ********** time Gather = 2.718886 
+ ********** time Gather = 2.592237 
+ ********** time Gather = 2.455598 
+ ********** time Gather = 0.109989 
+ ********** time = 15.474845 

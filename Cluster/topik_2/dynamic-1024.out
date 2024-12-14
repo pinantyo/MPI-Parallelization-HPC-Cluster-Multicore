@@ -1,0 +1,17 @@
+Workers	Comm Time	Process Time
+[node-01:23174] *** Process received signal ***
+[node-01:23174] Signal: Segmentation fault (11)
+[node-01:23174] Signal code: Address not mapped (1)
+[node-01:23174] Failing at address: 0x2000
+[node-01:23174] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x3ef10)[0x7fd63f25df10]
+[node-01:23174] [ 1] /home/user04/topik_2/manager_coba(+0xe39)[0x5608e5f76e39]
+[node-01:23174] [ 2] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xe7)[0x7fd63f240c87]
+[node-01:23174] [ 3] /home/user04/topik_2/manager_coba(+0xada)[0x5608e5f76ada]
+[node-01:23174] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node node-01 exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

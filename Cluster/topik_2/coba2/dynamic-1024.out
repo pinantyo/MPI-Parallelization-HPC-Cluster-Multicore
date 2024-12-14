@@ -1,0 +1,13 @@
+Process	Size	Time
+Result matrix:
+1	1024	Time = 8.809279 seconds
+Result matrix:
+2	1024	Time = 6.535204 seconds
+Result matrix:
+4	1024	Time = 5.370584 seconds
+Result matrix:
+8	1024	Time = 2.905616 seconds
+Result matrix:
+16	1024	Time = 2.008317 seconds
+Result matrix:
+32	1024	Time = 2.513074 seconds
